@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		484299191A1ED25700E3E47D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484299181A1ED25700E3E47D /* AppDelegate.swift */; };
+		4842991B1A1ED25700E3E47D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4842991A1A1ED25700E3E47D /* ViewController.swift */; };
+		4842991E1A1ED25700E3E47D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4842991C1A1ED25700E3E47D /* Main.storyboard */; };
+		484299201A1ED25700E3E47D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4842991F1A1ED25700E3E47D /* Images.xcassets */; };
+		484299231A1ED25700E3E47D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 484299211A1ED25700E3E47D /* LaunchScreen.xib */; };
+		4842992F1A1ED25700E3E47D /* KylePadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4842992E1A1ED25700E3E47D /* KylePadTests.swift */; };
+		484299391A1ED8A100E3E47D /* KPCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484299381A1ED8A100E3E47D /* KPCollectionViewController.swift */; };
+		4842993B1A1EDE7000E3E47D /* KPPadContents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4842993A1A1EDE7000E3E47D /* KPPadContents.swift */; };
+		4842993F1A1EDF4800E3E47D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4842993E1A1EDF4800E3E47D /* AudioToolbox.framework */; };
+		4842999A1A1EE86700E3E47D /* fileNames.txt in Resources */ = {isa = PBXBuildFile; fileRef = 484299401A1EE86700E3E47D /* fileNames.txt */; };
+		4842999B1A1EE86700E3E47D /* you got a big ol dick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299411A1EE86700E3E47D /* you got a big ol dick.mp3 */; };
+		4842999C1A1EE86700E3E47D /* you got a big ol.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299421A1EE86700E3E47D /* you got a big ol.mp3 */; };
+		4842999D1A1EE86700E3E47D /* you got a big dick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299431A1EE86700E3E47D /* you got a big dick.mp3 */; };
+		4842999E1A1EE86700E3E47D /* you got a big.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299441A1EE86700E3E47D /* you got a big.mp3 */; };
+		4842999F1A1EE86700E3E47D /* you ginger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299451A1EE86700E3E47D /* you ginger.mp3 */; };
+		484299A01A1EE86700E3E47D /* yoda 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299461A1EE86700E3E47D /* yoda 3.mp3 */; };
+		484299A11A1EE86700E3E47D /* yoda 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299471A1EE86700E3E47D /* yoda 2.mp3 */; };
+		484299A21A1EE86700E3E47D /* yoda 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299481A1EE86700E3E47D /* yoda 1.mp3 */; };
+		484299A31A1EE86700E3E47D /* yeah you know exactly what that feels like.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299491A1EE86700E3E47D /* yeah you know exactly what that feels like.mp3 */; };
+		484299A41A1EE86700E3E47D /* up 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842994A1A1EE86700E3E47D /* up 6.mp3 */; };
+		484299A51A1EE86700E3E47D /* up 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842994B1A1EE86700E3E47D /* up 5.mp3 */; };
+		484299A61A1EE86700E3E47D /* up 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842994C1A1EE86700E3E47D /* up 4.mp3 */; };
+		484299A71A1EE86700E3E47D /* up 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842994D1A1EE86700E3E47D /* up 3.mp3 */; };
+		484299A81A1EE86700E3E47D /* up 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842994E1A1EE86700E3E47D /* up 2.mp3 */; };
+		484299A91A1EE86700E3E47D /* up 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842994F1A1EE86700E3E47D /* up 1.mp3 */; };
+		484299AA1A1EE86700E3E47D /* train whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299501A1EE86700E3E47D /* train whistle.mp3 */; };
+		484299AB1A1EE86700E3E47D /* tard 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299511A1EE86700E3E47D /* tard 1.mp3 */; };
+		484299AC1A1EE86700E3E47D /* tard 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299521A1EE86700E3E47D /* tard 2.mp3 */; };
+		484299AD1A1EE86700E3E47D /* sweetie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299531A1EE86700E3E47D /* sweetie.mp3 */; };
+		484299AE1A1EE86700E3E47D /* suckin dick 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299541A1EE86700E3E47D /* suckin dick 4.mp3 */; };
+		484299AF1A1EE86700E3E47D /* suckin dick 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299551A1EE86700E3E47D /* suckin dick 3.mp3 */; };
+		484299B01A1EE86700E3E47D /* suckin dick 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299561A1EE86700E3E47D /* suckin dick 2.mp3 */; };
+		484299B11A1EE86700E3E47D /* suckin dick 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299571A1EE86700E3E47D /* suckin dick 1.mp3 */; };
+		484299B21A1EE86700E3E47D /* squeal 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299581A1EE86700E3E47D /* squeal 2.mp3 */; };
+		484299B31A1EE86700E3E47D /* squeal 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299591A1EE86700E3E47D /* squeal 1.mp3 */; };
+		484299B41A1EE86700E3E47D /* smokin like a vag.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842995A1A1EE86700E3E47D /* smokin like a vag.mp3 */; };
+		484299B51A1EE86700E3E47D /* slurp 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842995B1A1EE86700E3E47D /* slurp 2.mp3 */; };
+		484299B61A1EE86700E3E47D /* slurp 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842995C1A1EE86700E3E47D /* slurp 1.mp3 */; };
+		484299B71A1EE86700E3E47D /* short screams.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842995D1A1EE86700E3E47D /* short screams.mp3 */; };
+		484299B81A1EE86700E3E47D /* scream 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842995E1A1EE86700E3E47D /* scream 3.mp3 */; };
+		484299B91A1EE86700E3E47D /* scream 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842995F1A1EE86700E3E47D /* scream 2.mp3 */; };
+		484299BA1A1EE86700E3E47D /* scream 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299601A1EE86700E3E47D /* scream 1.mp3 */; };
+		484299BB1A1EE86700E3E47D /* riff 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299611A1EE86700E3E47D /* riff 2.mp3 */; };
+		484299BC1A1EE86700E3E47D /* riff 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299621A1EE86700E3E47D /* riff 1.mp3 */; };
+		484299BD1A1EE86700E3E47D /* oh yeah 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299631A1EE86700E3E47D /* oh yeah 3.mp3 */; };
+		484299BE1A1EE86700E3E47D /* oh yeah 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299641A1EE86700E3E47D /* oh yeah 2.mp3 */; };
+		484299BF1A1EE86700E3E47D /* oh yeah 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299651A1EE86700E3E47D /* oh yeah 1.mp3 */; };
+		484299C01A1EE86700E3E47D /* oh my god yeah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299661A1EE86700E3E47D /* oh my god yeah.mp3 */; };
+		484299C11A1EE86700E3E47D /* oh little boy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299671A1EE86700E3E47D /* oh little boy.mp3 */; };
+		484299C21A1EE86700E3E47D /* oh jesus 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299681A1EE86700E3E47D /* oh jesus 2.mp3 */; };
+		484299C31A1EE86700E3E47D /* oh jesus 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299691A1EE86700E3E47D /* oh jesus 1.mp3 */; };
+		484299C41A1EE86700E3E47D /* oh it tasted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842996A1A1EE86700E3E47D /* oh it tasted.mp3 */; };
+		484299C51A1EE86700E3E47D /* oh i fucking hated it.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842996B1A1EE86700E3E47D /* oh i fucking hated it.mp3 */; };
+		484299C61A1EE86700E3E47D /* oh gotta big dick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842996C1A1EE86700E3E47D /* oh gotta big dick.mp3 */; };
+		484299C71A1EE86700E3E47D /* oh candy cigarettes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842996D1A1EE86700E3E47D /* oh candy cigarettes.mp3 */; };
+		484299C81A1EE86700E3E47D /* oh baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842996E1A1EE86700E3E47D /* oh baby.mp3 */; };
+		484299C91A1EE86700E3E47D /* no no.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842996F1A1EE86700E3E47D /* no no.mp3 */; };
+		484299CA1A1EE86700E3E47D /* my butthole.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299701A1EE86700E3E47D /* my butthole.mp3 */; };
+		484299CB1A1EE86700E3E47D /* mommy made me mash my m and ms.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299711A1EE86700E3E47D /* mommy made me mash my m and ms.mp3 */; };
+		484299CC1A1EE86700E3E47D /* moan 10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299721A1EE86700E3E47D /* moan 10.mp3 */; };
+		484299CD1A1EE86700E3E47D /* moan 9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299731A1EE86700E3E47D /* moan 9.mp3 */; };
+		484299CE1A1EE86700E3E47D /* moan 8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299741A1EE86700E3E47D /* moan 8.mp3 */; };
+		484299CF1A1EE86700E3E47D /* moan 7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299751A1EE86700E3E47D /* moan 7.mp3 */; };
+		484299D01A1EE86700E3E47D /* moan 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299761A1EE86700E3E47D /* moan 6.mp3 */; };
+		484299D11A1EE86700E3E47D /* moan 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299771A1EE86700E3E47D /* moan 5.mp3 */; };
+		484299D21A1EE86700E3E47D /* moan 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299781A1EE86700E3E47D /* moan 4.mp3 */; };
+		484299D31A1EE86700E3E47D /* moan 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299791A1EE86700E3E47D /* moan 3.mp3 */; };
+		484299D41A1EE86700E3E47D /* moan 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842997A1A1EE86700E3E47D /* moan 2.mp3 */; };
+		484299D51A1EE86700E3E47D /* moan 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842997B1A1EE86700E3E47D /* moan 1.mp3 */; };
+		484299D61A1EE86700E3E47D /* mmm 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842997C1A1EE86700E3E47D /* mmm 4.mp3 */; };
+		484299D71A1EE86700E3E47D /* mmm 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842997D1A1EE86700E3E47D /* mmm 3.mp3 */; };
+		484299D81A1EE86700E3E47D /* mmm 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842997E1A1EE86700E3E47D /* mmm 2.mp3 */; };
+		484299D91A1EE86700E3E47D /* mmm 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842997F1A1EE86700E3E47D /* mmm 1.mp3 */; };
+		484299DA1A1EE86700E3E47D /* michael jackson.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299801A1EE86700E3E47D /* michael jackson.mp3 */; };
+		484299DB1A1EE86700E3E47D /* like a cigarette in my asshole.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299811A1EE86700E3E47D /* like a cigarette in my asshole.mp3 */; };
+		484299DC1A1EE86700E3E47D /* jesus it doesnt fit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299821A1EE86700E3E47D /* jesus it doesnt fit.mp3 */; };
+		484299DD1A1EE86700E3E47D /* jesus 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299831A1EE86700E3E47D /* jesus 2.mp3 */; };
+		484299DE1A1EE86700E3E47D /* jesus 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299841A1EE86700E3E47D /* jesus 1.mp3 */; };
+		484299DF1A1EE86700E3E47D /* i remember when they fucking invented chocolate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299851A1EE86700E3E47D /* i remember when they fucking invented chocolate.mp3 */; };
+		484299E01A1EE86700E3E47D /* i got a popsicle in my mouth.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299861A1EE86700E3E47D /* i got a popsicle in my mouth.mp3 */; };
+		484299E11A1EE86700E3E47D /* i didnt know that you liked chocolate.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299871A1EE86700E3E47D /* i didnt know that you liked chocolate.mp3 */; };
+		484299E21A1EE86700E3E47D /* im gonna lick it like a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299881A1EE86700E3E47D /* im gonna lick it like a.mp3 */; };
+		484299E31A1EE86700E3E47D /* guess what.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299891A1EE86700E3E47D /* guess what.mp3 */; };
+		484299E41A1EE86700E3E47D /* ginger snap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842998A1A1EE86700E3E47D /* ginger snap.mp3 */; };
+		484299E51A1EE86700E3E47D /* ginger.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842998B1A1EE86700E3E47D /* ginger.mp3 */; };
+		484299E61A1EE86700E3E47D /* gimme a goddamn cigarette ya sweetie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842998C1A1EE86700E3E47D /* gimme a goddamn cigarette ya sweetie.mp3 */; };
+		484299E71A1EE86700E3E47D /* dont you know jesus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842998D1A1EE86700E3E47D /* dont you know jesus.mp3 */; };
+		484299E81A1EE86700E3E47D /* cry 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842998E1A1EE86700E3E47D /* cry 3.mp3 */; };
+		484299E91A1EE86700E3E47D /* cry 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4842998F1A1EE86700E3E47D /* cry 2.mp3 */; };
+		484299EA1A1EE86700E3E47D /* cry 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299901A1EE86700E3E47D /* cry 1.mp3 */; };
+		484299EB1A1EE86700E3E47D /* candy apples.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299911A1EE86700E3E47D /* candy apples.mp3 */; };
+		484299EC1A1EE86700E3E47D /* butthole.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299921A1EE86700E3E47D /* butthole.mp3 */; };
+		484299ED1A1EE86700E3E47D /* aww 6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299931A1EE86700E3E47D /* aww 6.mp3 */; };
+		484299EE1A1EE86700E3E47D /* aww 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299941A1EE86700E3E47D /* aww 5.mp3 */; };
+		484299EF1A1EE86700E3E47D /* aww 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299951A1EE86700E3E47D /* aww 4.mp3 */; };
+		484299F01A1EE86700E3E47D /* aww 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299961A1EE86700E3E47D /* aww 3.mp3 */; };
+		484299F11A1EE86700E3E47D /* aww 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299971A1EE86700E3E47D /* aww 1.mp3 */; };
+		484299F21A1EE86700E3E47D /* and i wish you joy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299981A1EE86700E3E47D /* and i wish you joy.mp3 */; };
+		484299F31A1EE86700E3E47D /* aww 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 484299991A1EE86700E3E47D /* aww 2.mp3 */; };
+		484299F51A1EEACC00E3E47D /* KPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484299F41A1EEACC00E3E47D /* KPCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		484299291A1ED25700E3E47D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4842990B1A1ED25700E3E47D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 484299121A1ED25700E3E47D;
+			remoteInfo = KylePad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		484299131A1ED25700E3E47D /* KylePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KylePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		484299171A1ED25700E3E47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484299181A1ED25700E3E47D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4842991A1A1ED25700E3E47D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4842991D1A1ED25700E3E47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4842991F1A1ED25700E3E47D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		484299221A1ED25700E3E47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		484299281A1ED25700E3E47D /* KylePadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KylePadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4842992D1A1ED25700E3E47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4842992E1A1ED25700E3E47D /* KylePadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KylePadTests.swift; sourceTree = "<group>"; };
+		484299381A1ED8A100E3E47D /* KPCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPCollectionViewController.swift; sourceTree = "<group>"; };
+		4842993A1A1EDE7000E3E47D /* KPPadContents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPPadContents.swift; sourceTree = "<group>"; };
+		4842993C1A1EDEEF00E3E47D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		4842993E1A1EDF4800E3E47D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		484299401A1EE86700E3E47D /* fileNames.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fileNames.txt; sourceTree = "<group>"; };
+		484299411A1EE86700E3E47D /* you got a big ol dick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you got a big ol dick.mp3"; sourceTree = "<group>"; };
+		484299421A1EE86700E3E47D /* you got a big ol.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you got a big ol.mp3"; sourceTree = "<group>"; };
+		484299431A1EE86700E3E47D /* you got a big dick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you got a big dick.mp3"; sourceTree = "<group>"; };
+		484299441A1EE86700E3E47D /* you got a big.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you got a big.mp3"; sourceTree = "<group>"; };
+		484299451A1EE86700E3E47D /* you ginger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "you ginger.mp3"; sourceTree = "<group>"; };
+		484299461A1EE86700E3E47D /* yoda 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "yoda 3.mp3"; sourceTree = "<group>"; };
+		484299471A1EE86700E3E47D /* yoda 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "yoda 2.mp3"; sourceTree = "<group>"; };
+		484299481A1EE86700E3E47D /* yoda 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "yoda 1.mp3"; sourceTree = "<group>"; };
+		484299491A1EE86700E3E47D /* yeah you know exactly what that feels like.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "yeah you know exactly what that feels like.mp3"; sourceTree = "<group>"; };
+		4842994A1A1EE86700E3E47D /* up 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "up 6.mp3"; sourceTree = "<group>"; };
+		4842994B1A1EE86700E3E47D /* up 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "up 5.mp3"; sourceTree = "<group>"; };
+		4842994C1A1EE86700E3E47D /* up 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "up 4.mp3"; sourceTree = "<group>"; };
+		4842994D1A1EE86700E3E47D /* up 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "up 3.mp3"; sourceTree = "<group>"; };
+		4842994E1A1EE86700E3E47D /* up 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "up 2.mp3"; sourceTree = "<group>"; };
+		4842994F1A1EE86700E3E47D /* up 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "up 1.mp3"; sourceTree = "<group>"; };
+		484299501A1EE86700E3E47D /* train whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "train whistle.mp3"; sourceTree = "<group>"; };
+		484299511A1EE86700E3E47D /* tard 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tard 1.mp3"; sourceTree = "<group>"; };
+		484299521A1EE86700E3E47D /* tard 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tard 2.mp3"; sourceTree = "<group>"; };
+		484299531A1EE86700E3E47D /* sweetie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sweetie.mp3; sourceTree = "<group>"; };
+		484299541A1EE86700E3E47D /* suckin dick 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "suckin dick 4.mp3"; sourceTree = "<group>"; };
+		484299551A1EE86700E3E47D /* suckin dick 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "suckin dick 3.mp3"; sourceTree = "<group>"; };
+		484299561A1EE86700E3E47D /* suckin dick 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "suckin dick 2.mp3"; sourceTree = "<group>"; };
+		484299571A1EE86700E3E47D /* suckin dick 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "suckin dick 1.mp3"; sourceTree = "<group>"; };
+		484299581A1EE86700E3E47D /* squeal 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "squeal 2.mp3"; sourceTree = "<group>"; };
+		484299591A1EE86700E3E47D /* squeal 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "squeal 1.mp3"; sourceTree = "<group>"; };
+		4842995A1A1EE86700E3E47D /* smokin like a vag.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "smokin like a vag.mp3"; sourceTree = "<group>"; };
+		4842995B1A1EE86700E3E47D /* slurp 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "slurp 2.mp3"; sourceTree = "<group>"; };
+		4842995C1A1EE86700E3E47D /* slurp 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "slurp 1.mp3"; sourceTree = "<group>"; };
+		4842995D1A1EE86700E3E47D /* short screams.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "short screams.mp3"; sourceTree = "<group>"; };
+		4842995E1A1EE86700E3E47D /* scream 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "scream 3.mp3"; sourceTree = "<group>"; };
+		4842995F1A1EE86700E3E47D /* scream 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "scream 2.mp3"; sourceTree = "<group>"; };
+		484299601A1EE86700E3E47D /* scream 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "scream 1.mp3"; sourceTree = "<group>"; };
+		484299611A1EE86700E3E47D /* riff 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "riff 2.mp3"; sourceTree = "<group>"; };
+		484299621A1EE86700E3E47D /* riff 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "riff 1.mp3"; sourceTree = "<group>"; };
+		484299631A1EE86700E3E47D /* oh yeah 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh yeah 3.mp3"; sourceTree = "<group>"; };
+		484299641A1EE86700E3E47D /* oh yeah 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh yeah 2.mp3"; sourceTree = "<group>"; };
+		484299651A1EE86700E3E47D /* oh yeah 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh yeah 1.mp3"; sourceTree = "<group>"; };
+		484299661A1EE86700E3E47D /* oh my god yeah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh my god yeah.mp3"; sourceTree = "<group>"; };
+		484299671A1EE86700E3E47D /* oh little boy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh little boy.mp3"; sourceTree = "<group>"; };
+		484299681A1EE86700E3E47D /* oh jesus 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh jesus 2.mp3"; sourceTree = "<group>"; };
+		484299691A1EE86700E3E47D /* oh jesus 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh jesus 1.mp3"; sourceTree = "<group>"; };
+		4842996A1A1EE86700E3E47D /* oh it tasted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh it tasted.mp3"; sourceTree = "<group>"; };
+		4842996B1A1EE86700E3E47D /* oh i fucking hated it.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh i fucking hated it.mp3"; sourceTree = "<group>"; };
+		4842996C1A1EE86700E3E47D /* oh gotta big dick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh gotta big dick.mp3"; sourceTree = "<group>"; };
+		4842996D1A1EE86700E3E47D /* oh candy cigarettes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh candy cigarettes.mp3"; sourceTree = "<group>"; };
+		4842996E1A1EE86700E3E47D /* oh baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "oh baby.mp3"; sourceTree = "<group>"; };
+		4842996F1A1EE86700E3E47D /* no no.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "no no.mp3"; sourceTree = "<group>"; };
+		484299701A1EE86700E3E47D /* my butthole.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "my butthole.mp3"; sourceTree = "<group>"; };
+		484299711A1EE86700E3E47D /* mommy made me mash my m and ms.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mommy made me mash my m and ms.mp3"; sourceTree = "<group>"; };
+		484299721A1EE86700E3E47D /* moan 10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "moan 10.mp3"; sourceTree = "<group>"; };
+		484299731A1EE86700E3E47D /* moan 9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "moan 9.mp3"; sourceTree = "<group>"; };
+		484299741A1EE86700E3E47D /* moan 8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "moan 8.mp3"; sourceTree = "<group>"; };
+		484299751A1EE86700E3E47D /* moan 7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "moan 7.mp3"; sourceTree = "<group>"; };
+		484299761A1EE86700E3E47D /* moan 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "moan 6.mp3"; sourceTree = "<group>"; };
+		484299771A1EE86700E3E47D /* moan 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "moan 5.mp3"; sourceTree = "<group>"; };
+		484299781A1EE86700E3E47D /* moan 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "moan 4.mp3"; sourceTree = "<group>"; };
+		484299791A1EE86700E3E47D /* moan 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "moan 3.mp3"; sourceTree = "<group>"; };
+		4842997A1A1EE86700E3E47D /* moan 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "moan 2.mp3"; sourceTree = "<group>"; };
+		4842997B1A1EE86700E3E47D /* moan 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "moan 1.mp3"; sourceTree = "<group>"; };
+		4842997C1A1EE86700E3E47D /* mmm 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mmm 4.mp3"; sourceTree = "<group>"; };
+		4842997D1A1EE86700E3E47D /* mmm 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mmm 3.mp3"; sourceTree = "<group>"; };
+		4842997E1A1EE86700E3E47D /* mmm 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mmm 2.mp3"; sourceTree = "<group>"; };
+		4842997F1A1EE86700E3E47D /* mmm 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mmm 1.mp3"; sourceTree = "<group>"; };
+		484299801A1EE86700E3E47D /* michael jackson.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "michael jackson.mp3"; sourceTree = "<group>"; };
+		484299811A1EE86700E3E47D /* like a cigarette in my asshole.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "like a cigarette in my asshole.mp3"; sourceTree = "<group>"; };
+		484299821A1EE86700E3E47D /* jesus it doesnt fit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "jesus it doesnt fit.mp3"; sourceTree = "<group>"; };
+		484299831A1EE86700E3E47D /* jesus 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "jesus 2.mp3"; sourceTree = "<group>"; };
+		484299841A1EE86700E3E47D /* jesus 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "jesus 1.mp3"; sourceTree = "<group>"; };
+		484299851A1EE86700E3E47D /* i remember when they fucking invented chocolate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "i remember when they fucking invented chocolate.mp3"; sourceTree = "<group>"; };
+		484299861A1EE86700E3E47D /* i got a popsicle in my mouth.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "i got a popsicle in my mouth.mp3"; sourceTree = "<group>"; };
+		484299871A1EE86700E3E47D /* i didnt know that you liked chocolate.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "i didnt know that you liked chocolate.mp3"; sourceTree = "<group>"; };
+		484299881A1EE86700E3E47D /* im gonna lick it like a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "im gonna lick it like a.mp3"; sourceTree = "<group>"; };
+		484299891A1EE86700E3E47D /* guess what.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "guess what.mp3"; sourceTree = "<group>"; };
+		4842998A1A1EE86700E3E47D /* ginger snap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ginger snap.mp3"; sourceTree = "<group>"; };
+		4842998B1A1EE86700E3E47D /* ginger.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ginger.mp3; sourceTree = "<group>"; };
+		4842998C1A1EE86700E3E47D /* gimme a goddamn cigarette ya sweetie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gimme a goddamn cigarette ya sweetie.mp3"; sourceTree = "<group>"; };
+		4842998D1A1EE86700E3E47D /* dont you know jesus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dont you know jesus.mp3"; sourceTree = "<group>"; };
+		4842998E1A1EE86700E3E47D /* cry 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cry 3.mp3"; sourceTree = "<group>"; };
+		4842998F1A1EE86700E3E47D /* cry 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cry 2.mp3"; sourceTree = "<group>"; };
+		484299901A1EE86700E3E47D /* cry 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cry 1.mp3"; sourceTree = "<group>"; };
+		484299911A1EE86700E3E47D /* candy apples.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "candy apples.mp3"; sourceTree = "<group>"; };
+		484299921A1EE86700E3E47D /* butthole.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = butthole.mp3; sourceTree = "<group>"; };
+		484299931A1EE86700E3E47D /* aww 6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "aww 6.mp3"; sourceTree = "<group>"; };
+		484299941A1EE86700E3E47D /* aww 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "aww 5.mp3"; sourceTree = "<group>"; };
+		484299951A1EE86700E3E47D /* aww 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "aww 4.mp3"; sourceTree = "<group>"; };
+		484299961A1EE86700E3E47D /* aww 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "aww 3.mp3"; sourceTree = "<group>"; };
+		484299971A1EE86700E3E47D /* aww 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "aww 1.mp3"; sourceTree = "<group>"; };
+		484299981A1EE86700E3E47D /* and i wish you joy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "and i wish you joy.mp3"; sourceTree = "<group>"; };
+		484299991A1EE86700E3E47D /* aww 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "aww 2.mp3"; sourceTree = "<group>"; };
+		484299F41A1EEACC00E3E47D /* KPCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		484299101A1ED25700E3E47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4842993F1A1EDF4800E3E47D /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484299251A1ED25700E3E47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4842990A1A1ED25700E3E47D = {
+			isa = PBXGroup;
+			children = (
+				4842993E1A1EDF4800E3E47D /* AudioToolbox.framework */,
+				4842993C1A1EDEEF00E3E47D /* MediaPlayer.framework */,
+				484299151A1ED25700E3E47D /* KylePad */,
+				4842992B1A1ED25700E3E47D /* KylePadTests */,
+				484299141A1ED25700E3E47D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		484299141A1ED25700E3E47D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				484299131A1ED25700E3E47D /* KylePad.app */,
+				484299281A1ED25700E3E47D /* KylePadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		484299151A1ED25700E3E47D /* KylePad */ = {
+			isa = PBXGroup;
+			children = (
+				484299181A1ED25700E3E47D /* AppDelegate.swift */,
+				4842991A1A1ED25700E3E47D /* ViewController.swift */,
+				484299381A1ED8A100E3E47D /* KPCollectionViewController.swift */,
+				484299F41A1EEACC00E3E47D /* KPCollectionViewCell.swift */,
+				4842993A1A1EDE7000E3E47D /* KPPadContents.swift */,
+				4842991C1A1ED25700E3E47D /* Main.storyboard */,
+				4842991F1A1ED25700E3E47D /* Images.xcassets */,
+				484299211A1ED25700E3E47D /* LaunchScreen.xib */,
+				484299161A1ED25700E3E47D /* Supporting Files */,
+			);
+			path = KylePad;
+			sourceTree = "<group>";
+		};
+		484299161A1ED25700E3E47D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				484299401A1EE86700E3E47D /* fileNames.txt */,
+				484299411A1EE86700E3E47D /* you got a big ol dick.mp3 */,
+				484299421A1EE86700E3E47D /* you got a big ol.mp3 */,
+				484299431A1EE86700E3E47D /* you got a big dick.mp3 */,
+				484299441A1EE86700E3E47D /* you got a big.mp3 */,
+				484299451A1EE86700E3E47D /* you ginger.mp3 */,
+				484299461A1EE86700E3E47D /* yoda 3.mp3 */,
+				484299471A1EE86700E3E47D /* yoda 2.mp3 */,
+				484299481A1EE86700E3E47D /* yoda 1.mp3 */,
+				484299491A1EE86700E3E47D /* yeah you know exactly what that feels like.mp3 */,
+				4842994A1A1EE86700E3E47D /* up 6.mp3 */,
+				4842994B1A1EE86700E3E47D /* up 5.mp3 */,
+				4842994C1A1EE86700E3E47D /* up 4.mp3 */,
+				4842994D1A1EE86700E3E47D /* up 3.mp3 */,
+				4842994E1A1EE86700E3E47D /* up 2.mp3 */,
+				4842994F1A1EE86700E3E47D /* up 1.mp3 */,
+				484299501A1EE86700E3E47D /* train whistle.mp3 */,
+				484299511A1EE86700E3E47D /* tard 1.mp3 */,
+				484299521A1EE86700E3E47D /* tard 2.mp3 */,
+				484299531A1EE86700E3E47D /* sweetie.mp3 */,
+				484299541A1EE86700E3E47D /* suckin dick 4.mp3 */,
+				484299551A1EE86700E3E47D /* suckin dick 3.mp3 */,
+				484299561A1EE86700E3E47D /* suckin dick 2.mp3 */,
+				484299571A1EE86700E3E47D /* suckin dick 1.mp3 */,
+				484299581A1EE86700E3E47D /* squeal 2.mp3 */,
+				484299591A1EE86700E3E47D /* squeal 1.mp3 */,
+				4842995A1A1EE86700E3E47D /* smokin like a vag.mp3 */,
+				4842995B1A1EE86700E3E47D /* slurp 2.mp3 */,
+				4842995C1A1EE86700E3E47D /* slurp 1.mp3 */,
+				4842995D1A1EE86700E3E47D /* short screams.mp3 */,
+				4842995E1A1EE86700E3E47D /* scream 3.mp3 */,
+				4842995F1A1EE86700E3E47D /* scream 2.mp3 */,
+				484299601A1EE86700E3E47D /* scream 1.mp3 */,
+				484299611A1EE86700E3E47D /* riff 2.mp3 */,
+				484299621A1EE86700E3E47D /* riff 1.mp3 */,
+				484299631A1EE86700E3E47D /* oh yeah 3.mp3 */,
+				484299641A1EE86700E3E47D /* oh yeah 2.mp3 */,
+				484299651A1EE86700E3E47D /* oh yeah 1.mp3 */,
+				484299661A1EE86700E3E47D /* oh my god yeah.mp3 */,
+				484299671A1EE86700E3E47D /* oh little boy.mp3 */,
+				484299681A1EE86700E3E47D /* oh jesus 2.mp3 */,
+				484299691A1EE86700E3E47D /* oh jesus 1.mp3 */,
+				4842996A1A1EE86700E3E47D /* oh it tasted.mp3 */,
+				4842996B1A1EE86700E3E47D /* oh i fucking hated it.mp3 */,
+				4842996C1A1EE86700E3E47D /* oh gotta big dick.mp3 */,
+				4842996D1A1EE86700E3E47D /* oh candy cigarettes.mp3 */,
+				4842996E1A1EE86700E3E47D /* oh baby.mp3 */,
+				4842996F1A1EE86700E3E47D /* no no.mp3 */,
+				484299701A1EE86700E3E47D /* my butthole.mp3 */,
+				484299711A1EE86700E3E47D /* mommy made me mash my m and ms.mp3 */,
+				484299721A1EE86700E3E47D /* moan 10.mp3 */,
+				484299731A1EE86700E3E47D /* moan 9.mp3 */,
+				484299741A1EE86700E3E47D /* moan 8.mp3 */,
+				484299751A1EE86700E3E47D /* moan 7.mp3 */,
+				484299761A1EE86700E3E47D /* moan 6.mp3 */,
+				484299771A1EE86700E3E47D /* moan 5.mp3 */,
+				484299781A1EE86700E3E47D /* moan 4.mp3 */,
+				484299791A1EE86700E3E47D /* moan 3.mp3 */,
+				4842997A1A1EE86700E3E47D /* moan 2.mp3 */,
+				4842997B1A1EE86700E3E47D /* moan 1.mp3 */,
+				4842997C1A1EE86700E3E47D /* mmm 4.mp3 */,
+				4842997D1A1EE86700E3E47D /* mmm 3.mp3 */,
+				4842997E1A1EE86700E3E47D /* mmm 2.mp3 */,
+				4842997F1A1EE86700E3E47D /* mmm 1.mp3 */,
+				484299801A1EE86700E3E47D /* michael jackson.mp3 */,
+				484299811A1EE86700E3E47D /* like a cigarette in my asshole.mp3 */,
+				484299821A1EE86700E3E47D /* jesus it doesnt fit.mp3 */,
+				484299831A1EE86700E3E47D /* jesus 2.mp3 */,
+				484299841A1EE86700E3E47D /* jesus 1.mp3 */,
+				484299851A1EE86700E3E47D /* i remember when they fucking invented chocolate.mp3 */,
+				484299861A1EE86700E3E47D /* i got a popsicle in my mouth.mp3 */,
+				484299871A1EE86700E3E47D /* i didnt know that you liked chocolate.mp3 */,
+				484299881A1EE86700E3E47D /* im gonna lick it like a.mp3 */,
+				484299891A1EE86700E3E47D /* guess what.mp3 */,
+				4842998A1A1EE86700E3E47D /* ginger snap.mp3 */,
+				4842998B1A1EE86700E3E47D /* ginger.mp3 */,
+				4842998C1A1EE86700E3E47D /* gimme a goddamn cigarette ya sweetie.mp3 */,
+				4842998D1A1EE86700E3E47D /* dont you know jesus.mp3 */,
+				4842998E1A1EE86700E3E47D /* cry 3.mp3 */,
+				4842998F1A1EE86700E3E47D /* cry 2.mp3 */,
+				484299901A1EE86700E3E47D /* cry 1.mp3 */,
+				484299911A1EE86700E3E47D /* candy apples.mp3 */,
+				484299921A1EE86700E3E47D /* butthole.mp3 */,
+				484299931A1EE86700E3E47D /* aww 6.mp3 */,
+				484299941A1EE86700E3E47D /* aww 5.mp3 */,
+				484299951A1EE86700E3E47D /* aww 4.mp3 */,
+				484299961A1EE86700E3E47D /* aww 3.mp3 */,
+				484299971A1EE86700E3E47D /* aww 1.mp3 */,
+				484299981A1EE86700E3E47D /* and i wish you joy.mp3 */,
+				484299991A1EE86700E3E47D /* aww 2.mp3 */,
+				484299171A1ED25700E3E47D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4842992B1A1ED25700E3E47D /* KylePadTests */ = {
+			isa = PBXGroup;
+			children = (
+				4842992E1A1ED25700E3E47D /* KylePadTests.swift */,
+				4842992C1A1ED25700E3E47D /* Supporting Files */,
+			);
+			path = KylePadTests;
+			sourceTree = "<group>";
+		};
+		4842992C1A1ED25700E3E47D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4842992D1A1ED25700E3E47D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		484299121A1ED25700E3E47D /* KylePad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484299321A1ED25700E3E47D /* Build configuration list for PBXNativeTarget "KylePad" */;
+			buildPhases = (
+				4842990F1A1ED25700E3E47D /* Sources */,
+				484299101A1ED25700E3E47D /* Frameworks */,
+				484299111A1ED25700E3E47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KylePad;
+			productName = KylePad;
+			productReference = 484299131A1ED25700E3E47D /* KylePad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		484299271A1ED25700E3E47D /* KylePadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484299351A1ED25700E3E47D /* Build configuration list for PBXNativeTarget "KylePadTests" */;
+			buildPhases = (
+				484299241A1ED25700E3E47D /* Sources */,
+				484299251A1ED25700E3E47D /* Frameworks */,
+				484299261A1ED25700E3E47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4842992A1A1ED25700E3E47D /* PBXTargetDependency */,
+			);
+			name = KylePadTests;
+			productName = KylePadTests;
+			productReference = 484299281A1ED25700E3E47D /* KylePadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4842990B1A1ED25700E3E47D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Feef;
+				TargetAttributes = {
+					484299121A1ED25700E3E47D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					484299271A1ED25700E3E47D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 484299121A1ED25700E3E47D;
+					};
+				};
+			};
+			buildConfigurationList = 4842990E1A1ED25700E3E47D /* Build configuration list for PBXProject "KylePad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4842990A1A1ED25700E3E47D;
+			productRefGroup = 484299141A1ED25700E3E47D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				484299121A1ED25700E3E47D /* KylePad */,
+				484299271A1ED25700E3E47D /* KylePadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		484299111A1ED25700E3E47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4842999F1A1EE86700E3E47D /* you ginger.mp3 in Resources */,
+				484299D91A1EE86700E3E47D /* mmm 1.mp3 in Resources */,
+				484299BD1A1EE86700E3E47D /* oh yeah 3.mp3 in Resources */,
+				484299EC1A1EE86700E3E47D /* butthole.mp3 in Resources */,
+				484299F31A1EE86700E3E47D /* aww 2.mp3 in Resources */,
+				484299C81A1EE86700E3E47D /* oh baby.mp3 in Resources */,
+				4842991E1A1ED25700E3E47D /* Main.storyboard in Resources */,
+				484299D31A1EE86700E3E47D /* moan 3.mp3 in Resources */,
+				484299BC1A1EE86700E3E47D /* riff 1.mp3 in Resources */,
+				484299AF1A1EE86700E3E47D /* suckin dick 3.mp3 in Resources */,
+				4842999E1A1EE86700E3E47D /* you got a big.mp3 in Resources */,
+				484299E71A1EE86700E3E47D /* dont you know jesus.mp3 in Resources */,
+				484299CC1A1EE86700E3E47D /* moan 10.mp3 in Resources */,
+				484299DD1A1EE86700E3E47D /* jesus 2.mp3 in Resources */,
+				484299C31A1EE86700E3E47D /* oh jesus 1.mp3 in Resources */,
+				4842999B1A1EE86700E3E47D /* you got a big ol dick.mp3 in Resources */,
+				484299C51A1EE86700E3E47D /* oh i fucking hated it.mp3 in Resources */,
+				484299C71A1EE86700E3E47D /* oh candy cigarettes.mp3 in Resources */,
+				484299C21A1EE86700E3E47D /* oh jesus 2.mp3 in Resources */,
+				484299C91A1EE86700E3E47D /* no no.mp3 in Resources */,
+				484299A01A1EE86700E3E47D /* yoda 3.mp3 in Resources */,
+				484299D51A1EE86700E3E47D /* moan 1.mp3 in Resources */,
+				484299A41A1EE86700E3E47D /* up 6.mp3 in Resources */,
+				484299CB1A1EE86700E3E47D /* mommy made me mash my m and ms.mp3 in Resources */,
+				484299B51A1EE86700E3E47D /* slurp 2.mp3 in Resources */,
+				484299E11A1EE86700E3E47D /* i didnt know that you liked chocolate.mp3 in Resources */,
+				484299E81A1EE86700E3E47D /* cry 3.mp3 in Resources */,
+				484299DA1A1EE86700E3E47D /* michael jackson.mp3 in Resources */,
+				484299E61A1EE86700E3E47D /* gimme a goddamn cigarette ya sweetie.mp3 in Resources */,
+				484299BF1A1EE86700E3E47D /* oh yeah 1.mp3 in Resources */,
+				484299231A1ED25700E3E47D /* LaunchScreen.xib in Resources */,
+				484299CA1A1EE86700E3E47D /* my butthole.mp3 in Resources */,
+				484299D11A1EE86700E3E47D /* moan 5.mp3 in Resources */,
+				484299C01A1EE86700E3E47D /* oh my god yeah.mp3 in Resources */,
+				484299CF1A1EE86700E3E47D /* moan 7.mp3 in Resources */,
+				484299A21A1EE86700E3E47D /* yoda 1.mp3 in Resources */,
+				484299EE1A1EE86700E3E47D /* aww 5.mp3 in Resources */,
+				484299B71A1EE86700E3E47D /* short screams.mp3 in Resources */,
+				4842999C1A1EE86700E3E47D /* you got a big ol.mp3 in Resources */,
+				484299B31A1EE86700E3E47D /* squeal 1.mp3 in Resources */,
+				484299E91A1EE86700E3E47D /* cry 2.mp3 in Resources */,
+				484299BB1A1EE86700E3E47D /* riff 2.mp3 in Resources */,
+				484299E41A1EE86700E3E47D /* ginger snap.mp3 in Resources */,
+				484299F21A1EE86700E3E47D /* and i wish you joy.mp3 in Resources */,
+				484299E51A1EE86700E3E47D /* ginger.mp3 in Resources */,
+				484299AA1A1EE86700E3E47D /* train whistle.mp3 in Resources */,
+				484299A11A1EE86700E3E47D /* yoda 2.mp3 in Resources */,
+				484299DE1A1EE86700E3E47D /* jesus 1.mp3 in Resources */,
+				484299A31A1EE86700E3E47D /* yeah you know exactly what that feels like.mp3 in Resources */,
+				484299DF1A1EE86700E3E47D /* i remember when they fucking invented chocolate.mp3 in Resources */,
+				484299D61A1EE86700E3E47D /* mmm 4.mp3 in Resources */,
+				484299F01A1EE86700E3E47D /* aww 3.mp3 in Resources */,
+				484299DB1A1EE86700E3E47D /* like a cigarette in my asshole.mp3 in Resources */,
+				484299DC1A1EE86700E3E47D /* jesus it doesnt fit.mp3 in Resources */,
+				484299AB1A1EE86700E3E47D /* tard 1.mp3 in Resources */,
+				484299B61A1EE86700E3E47D /* slurp 1.mp3 in Resources */,
+				484299A81A1EE86700E3E47D /* up 2.mp3 in Resources */,
+				484299A51A1EE86700E3E47D /* up 5.mp3 in Resources */,
+				484299EB1A1EE86700E3E47D /* candy apples.mp3 in Resources */,
+				484299201A1ED25700E3E47D /* Images.xcassets in Resources */,
+				4842999D1A1EE86700E3E47D /* you got a big dick.mp3 in Resources */,
+				484299EF1A1EE86700E3E47D /* aww 4.mp3 in Resources */,
+				484299D71A1EE86700E3E47D /* mmm 3.mp3 in Resources */,
+				484299ED1A1EE86700E3E47D /* aww 6.mp3 in Resources */,
+				4842999A1A1EE86700E3E47D /* fileNames.txt in Resources */,
+				484299B21A1EE86700E3E47D /* squeal 2.mp3 in Resources */,
+				484299D41A1EE86700E3E47D /* moan 2.mp3 in Resources */,
+				484299B11A1EE86700E3E47D /* suckin dick 1.mp3 in Resources */,
+				484299B01A1EE86700E3E47D /* suckin dick 2.mp3 in Resources */,
+				484299D01A1EE86700E3E47D /* moan 6.mp3 in Resources */,
+				484299D21A1EE86700E3E47D /* moan 4.mp3 in Resources */,
+				484299BA1A1EE86700E3E47D /* scream 1.mp3 in Resources */,
+				484299B91A1EE86700E3E47D /* scream 2.mp3 in Resources */,
+				484299C41A1EE86700E3E47D /* oh it tasted.mp3 in Resources */,
+				484299E31A1EE86700E3E47D /* guess what.mp3 in Resources */,
+				484299CD1A1EE86700E3E47D /* moan 9.mp3 in Resources */,
+				484299A71A1EE86700E3E47D /* up 3.mp3 in Resources */,
+				484299C61A1EE86700E3E47D /* oh gotta big dick.mp3 in Resources */,
+				484299B41A1EE86700E3E47D /* smokin like a vag.mp3 in Resources */,
+				484299E21A1EE86700E3E47D /* im gonna lick it like a.mp3 in Resources */,
+				484299D81A1EE86700E3E47D /* mmm 2.mp3 in Resources */,
+				484299AE1A1EE86700E3E47D /* suckin dick 4.mp3 in Resources */,
+				484299F11A1EE86700E3E47D /* aww 1.mp3 in Resources */,
+				484299A91A1EE86700E3E47D /* up 1.mp3 in Resources */,
+				484299C11A1EE86700E3E47D /* oh little boy.mp3 in Resources */,
+				484299BE1A1EE86700E3E47D /* oh yeah 2.mp3 in Resources */,
+				484299CE1A1EE86700E3E47D /* moan 8.mp3 in Resources */,
+				484299EA1A1EE86700E3E47D /* cry 1.mp3 in Resources */,
+				484299B81A1EE86700E3E47D /* scream 3.mp3 in Resources */,
+				484299A61A1EE86700E3E47D /* up 4.mp3 in Resources */,
+				484299AD1A1EE86700E3E47D /* sweetie.mp3 in Resources */,
+				484299E01A1EE86700E3E47D /* i got a popsicle in my mouth.mp3 in Resources */,
+				484299AC1A1EE86700E3E47D /* tard 2.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484299261A1ED25700E3E47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4842990F1A1ED25700E3E47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4842993B1A1EDE7000E3E47D /* KPPadContents.swift in Sources */,
+				484299391A1ED8A100E3E47D /* KPCollectionViewController.swift in Sources */,
+				484299F51A1EEACC00E3E47D /* KPCollectionViewCell.swift in Sources */,
+				4842991B1A1ED25700E3E47D /* ViewController.swift in Sources */,
+				484299191A1ED25700E3E47D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		484299241A1ED25700E3E47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4842992F1A1ED25700E3E47D /* KylePadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4842992A1A1ED25700E3E47D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 484299121A1ED25700E3E47D /* KylePad */;
+			targetProxy = 484299291A1ED25700E3E47D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4842991C1A1ED25700E3E47D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4842991D1A1ED25700E3E47D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		484299211A1ED25700E3E47D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				484299221A1ED25700E3E47D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		484299301A1ED25700E3E47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		484299311A1ED25700E3E47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		484299331A1ED25700E3E47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KylePad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		484299341A1ED25700E3E47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KylePad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		484299361A1ED25700E3E47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KylePadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KylePad.app/KylePad";
+			};
+			name = Debug;
+		};
+		484299371A1ED25700E3E47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KylePadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KylePad.app/KylePad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4842990E1A1ED25700E3E47D /* Build configuration list for PBXProject "KylePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484299301A1ED25700E3E47D /* Debug */,
+				484299311A1ED25700E3E47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		484299321A1ED25700E3E47D /* Build configuration list for PBXNativeTarget "KylePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484299331A1ED25700E3E47D /* Debug */,
+				484299341A1ED25700E3E47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		484299351A1ED25700E3E47D /* Build configuration list for PBXNativeTarget "KylePadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484299361A1ED25700E3E47D /* Debug */,
+				484299371A1ED25700E3E47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4842990B1A1ED25700E3E47D /* Project object */;
+}

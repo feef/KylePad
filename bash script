@@ -1,0 +1,126 @@
+exportTableButtonsFromFilesInCurrentFolder(){
+
+OUTFILE=soundboard.html
+CNTR=0
+
+echo "<!DOCTYPE html>
+<html>
+
+<head>
+<title>The Kyle Pad</title>
+<h1 align="center">The Kyle Pad</h2>
+<h2 align="center">A stupid, offensive exercise in html and bash coding</h2>
+<style type=\"text/css\">
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f29c93;
+	box-shadow:inset 0px 1px 0px 0px #f29c93;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #fe1a00), color-stop(1, #ce0100) );
+	background:-moz-linear-gradient( center top, #fe1a00 5%, #ce0100 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe1a00', endColorstr='#ce0100');
+	background-color:#fe1a00;
+	-webkit-border-top-left-radius:6px;
+	-moz-border-radius-topleft:6px;
+	border-top-left-radius:6px;
+	-webkit-border-top-right-radius:6px;
+	-moz-border-radius-topright:6px;
+	border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+	-moz-border-radius-bottomright:6px;
+	border-bottom-right-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+	-moz-border-radius-bottomleft:6px;
+	border-bottom-left-radius:6px;
+	text-indent:0;
+	border:1px solid #d83526;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:150px;
+	width:150px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #b23e35;
+        white-space:normal !important;
+        line-height:14px !important;
+}
+.myButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ce0100), color-stop(1, #fe1a00) );
+	background:-moz-linear-gradient( center top, #ce0100 5%, #fe1a00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0100', endColorstr='#fe1a00');
+	background-color:#ce0100;
+}.myButton:active {
+	position:relative;
+	top:1px;
+}</style>
+<body>
+<table style=\"width:100%\">" > $OUTFILE
+
+SAVEIFS=$IFS
+IFS=$(echo -en "\n\b")
+
+for i in $( ls );
+do
+
+  if [ $i == $OUTFILE ]; then
+    continue;
+  fi
+
+  NORMD=$(($CNTR % 3))
+  if [ $NORMD == 0 ]; then
+    if [ $NORMD != 0 ]; then
+      echo "</tr>" >> $OUTFILE
+    fi
+    echo "<tr>" >> $OUTFILE
+  fi
+  LNGTH=$((${#i}-4))
+  #if [ $LNGTH < 0 ]; then
+  #  let LNGTH=0
+  #fi
+  BTNTXT=${i:0:$LNGTH}
+  echo "<td align="center"><a onclick=\"this.firstChild.play()\" class=\"myButton\"><audio src="http://rabbit.eng.miami.edu/students/smahmed/${BTNTXT// /%20}.mp3"></audio>$BTNTXT</a></td>" >> $OUTFILE
+  let CNTR=CNTR+1
+done
+
+IFS=$SAVEIFS
+
+echo "</tr>
+</table>
+
+<p align="center">Android and iOS versions ready, just need to go through the distribution song and dance and dealing with that crap is too much right now</p>
+
+</body>
+</html>" >> $OUTFILE
+
+
+
+}
+
+exportNamesOfFilesInCurrentFolder() {
+
+OUTFILE=fileNames.txt;
+> $OUTFILE;
+
+SAVEIFS=$IFS
+IFS=$(echo -en "\n\b")
+
+for i in $( ls );
+do
+  if [ $i == $OUTFILE ]; then
+    continue;
+  fi
+
+  LNGTH=$((${#i}-4))
+  #if [ $LNGTH < 0 ]; then
+  #  let LNGTH=0
+  #fi
+  BTNTXT=${i:0:$LNGTH}
+  echo $BTNTXT >> $OUTFILE;
+done
+
+IFS=$SAVEIFS
+
+}
